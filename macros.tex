@@ -1,0 +1,19 @@
+% Notation macros shared by the PDF book (include-in-header), the HTML book
+% (MathJax, injected by filtros/macros.lua) and the TikZ figures
+% (tikz-estilos.tex).
+%
+% MathJax compatibility: use only \newcommand / \renewcommand with plain
+% mandatory arguments, one definition per line. No \DeclareMathOperator,
+% \ensuremath, \xspace or other package-specific commands.
+
+% Number sets
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+% Absolute values, norms and inner products
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\prodint}[2]{\left\langle #1, #2 \right\rangle}
